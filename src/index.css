@@ -6,25 +6,20 @@
   --breakpoint-xxl: 1440px;
   --breakpoint-3xl: 1600px;
   --breakpoint-xl: 1260px;
+  --font-tt: "TTNormsPro", sans-serif;
+  --font-ttItalic: "TTNormsProItalic", sans-serif;
 }
 @font-face {
-  font-family: "TT Norms Pro";
-  src: url("/fonts/TTNormsProMono-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "TT Norms Pro";
-  src: url("/fonts/TTNormsProExpanded-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "TT Norms Pro";
-  src: url("/fonts/TTNormsProExpanded-Bold.ttf") format("truetype");
+  font-family: "TTNormsPro";
+  src: url("/fonts/TTNormsPro-Bd.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TTNormsProItalic";
+  src: url("/fonts/TTNormsPro-It.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
   font-display: swap;
 }

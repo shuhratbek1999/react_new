@@ -50,7 +50,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className={`mt-4 font-light text-[8.77px] xs:text-[11.4px] lg:text-[17.5px] tracking-wider transition-colors duration-700 ${
+          className={`mt-4 font-ttItalic font-light text-[8.77px] xs:text-[11.4px] lg:text-[17.5px] tracking-wider transition-colors duration-700 ${
             active ? "text-gray-300" : "text-[#1E1E1E]"
           }`}
         >

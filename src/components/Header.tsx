@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#1E1E1E] text-[#FBFFFE] fixed top-0 left-0 w-full z-50 flex items-end sm:items-center max-sm:pb-4 sm:pb-0 transition-all duration-300 3xl:h-[100px] xxl:h-[90px] xl:h-[78.75px] lg:h-16 lx:h-[62px] md:h-12 sm:h-[130px] xs:h-[108px] h-[83.5px]">
+    <header className="bg-[#1E1E1E] font-tt text-[#FBFFFE] fixed top-0 left-0 w-full z-50 flex items-end sm:items-center max-sm:pb-4 sm:pb-0 transition-all duration-300 3xl:h-[100px] xxl:h-[90px] xl:h-[78.75px] lg:h-16 lx:h-[62px] md:h-12 sm:h-[130px] xs:h-[108px] h-[83.5px]">
       <div className="w-full mx-auto px-6 sm:px-10 flex justify-between items-center">
         {/* --- Logo --- */}
         <div className="flex items-center space-x-2">

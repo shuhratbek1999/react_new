@@ -15,7 +15,8 @@ export default defineConfig({
     },
     extend: {
       fontFamily: {
-        tt: ['"TT Norms Pro"', "sans-serif"],
+        tt: ['"TTNormsPro"', "sans-serif"],
+        ttItalic: ['"TTNormsProItalic"', "sans-serif"],
       },
     },
   },
