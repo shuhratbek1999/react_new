@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       </h1>
       <nav className="flex justify-center mt-8">
         <ul className="flex xxxl:flex-row max-sm:flex-col sm:flex-row justify-center w-full gap-4">
-          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 px-2 flex flex-col justify-center">
+          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 pl-4 pr-1 flex flex-col justify-center">
             <h2 className="font-bold xxxl:text-[26.67px] xxl:text-[24px] xl:text-[21px] lg:text-[21px] lx:text-[20.34px] md:text-[15.75px] sm:text-[28px] xs:text-[23.36px] text-[18px] uppercase text-[#FF0000]">
               Серверное оборудование
             </h2>
@@ -141,7 +141,7 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </li>
-          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 px-8 flex flex-col justify-center">
+          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 pl-4 pr-1 flex flex-col justify-center">
             <h2 className="font-bold xxxl:text-[26.67px] xxl:text-[24px] xl:text-[21px] lg:text-[21px] lx:text-[20.34px] md:text-[15.75px] sm:text-[28px] xs:text-[23.36px] text-[18px] uppercase text-[#FF0000]">
               Серверное оборудование
             </h2>
@@ -273,7 +273,7 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </li>
-          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 px-8 flex flex-col justify-center">
+          <li className="w-[265px] h-[383px] xs:w-[412px] xs:h-[595px] sm:w-[412px] sm:h-[596px] md:w-[232px] md:h-[335px] lx:h-[432px] lx:w-[300px] lg:h-[446px] lg:w-[308px] xl:h-[446px] xl:w-[308px] xxl:h-[510px] xxl:w-[353px] xxxl:w-[392px]! xxxl:h-[566px] rounded-[13.33px] border-[1.11px] border-[#1E1E1E] py-8 pl-4 pr-1 flex flex-col justify-center">
             <h2 className="font-bold xxxl:text-[26.67px] xxl:text-[24px] xl:text-[21px] lg:text-[21px] lx:text-[20.34px] md:text-[15.75px] sm:text-[28px] xs:text-[23.36px] text-[18px] uppercase text-[#FF0000]">
               Серверное оборудование
             </h2>
