@@ -5,18 +5,34 @@ export default function Hero() {
 
   return (
     <section
-      className={`relative h-[1000px] flex flex-col items-center pt-52 min-h-screen transition-colors duration-700 ${
+      className={`relative md:h-[1000px] h-[500px] flex flex-col items-center pt-52 transition-colors duration-700 ${
         active ? "bg-[#1b1b1b]" : "bg-[#f9fcfb]"
       }`}
     >
-      <div className="relative text-center max-w-[1263px]">
-        <span className="absolute -top-14 -left-6 w-6 h-6 border-t border-l border-[#1E1E1E]"></span>
-        <span className="absolute -top-14 -right-6 w-6 h-6 border-t border-r border-[#1E1E1E]"></span>
-        <span className="absolute -bottom-10 -left-6 w-6 h-6 border-b border-l border-[#1E1E1E]"></span>
-        <span className="absolute -bottom-10 -right-6 w-6 h-6 border-b border-r border-[#1E1E1E]"></span>
+      <div className="relative text-center xl:max-w-[1263px] lg:max-w-[1017px]">
+        <span
+          className={`absolute -top-14 left-4 xs:left-4 md:-left-4 xl:-left-6 lg:-left-2 w-[11px] h-[11px] xs:w-[17px] xs:h-[17px] border-t-[1.1px] border-l-[1.1px] ${
+            active ? "border-[#f9fcfb]" : "border-[#1E1E1E]"
+          }`}
+        ></span>
+        <span
+          className={`absolute -top-14 right-4 xs:right-3 md:-right-4 xl:-right-6 lg:-right-2 w-[11px] h-[11px] xs:w-[17px] xs:h-[17px] border-t-[1.1px] border-r-[1.1px] ${
+            active ? "border-[#f9fcfb]" : "border-[#1E1E1E]"
+          }`}
+        ></span>
+        <span
+          className={`absolute -bottom-10 left-4 xs:left-4 md:-left-4 xl:-left-6 lg:-left-2 w-[11px] h-[11px] xs:w-[17px] xs:h-[17px] border-b-[1.1px] border-l-[1.1px] ${
+            active ? "border-[#f9fcfb]" : "border-[#1E1E1E]"
+          }`}
+        ></span>
+        <span
+          className={`absolute -bottom-10 right-4 xs:right-3 md:-right-4 xl:-right-6 lg:-right-2 w-[11px] h-[11px] xs:w-[17px] xs:h-[17px] border-b-[1.1px] border-r-[1.1px] ${
+            active ? "border-[#f9fcfb]" : "border-[#1E1E1E]"
+          }`}
+        ></span>
 
         <h1
-          className={`font-tt font-bold leading-tight transition-colors duration-700 text-center text-[1.4rem] sm:text-[1.8rem] md:text-[2.2rem] lg:text-[2.6rem] xl:text-[3rem] ${
+          className={`font-tt font-bold leading-tight transition-colors duration-700 text-center xl:text-[3rem] lg:text-[2.6rem] lx:text-[37.3px] md:text-[28.88px] sm:text-[31px] xs:text-[25px] text-[19.3px] ${
             active ? "text-white" : "text-[#222]"
           }`}
         >
@@ -34,8 +50,8 @@ export default function Hero() {
         </h1>
 
         <p
-          className={`mt-4 text-sm sm:text-base tracking-wider transition-colors duration-700 ${
-            active ? "text-gray-300" : "text-gray-500"
+          className={`mt-4 font-light text-[8.77px] xs:text-[11.4px] lg:text-[17.5px] tracking-wider transition-colors duration-700 ${
+            active ? "text-gray-300" : "text-[#1E1E1E]"
           }`}
         >
           КОМПАНИЯ СОВРЕМЕННЫХ БИЗНЕС-РЕШЕНИЙ
@@ -44,18 +60,25 @@ export default function Hero() {
       <button
         onMouseEnter={() => setActive(true)}
         onMouseLeave={() => setActive(false)}
-        className={`relative cursor-pointer z-10 mt-20 w-[237px] h-[94px] rounded-[100px] transition-all duration-700 flex items-center justify-start px-2 shadow-md ${
+        className={`relative z-10 mt-20 hidden md:flex md:w-[155px] md:h-[61px] w-[263px] h-[104px] rounded-[100px] transition-all duration-700 items-center justify-start px-2 ${
           active ? "bg-[#e60000]" : "bg-[#1b1b1b]"
         }`}
+        style={{
+          boxShadow: "4.44px 4.44px 6.67px rgba(0, 0, 0, 0.5)", // tashqi soya
+        }}
       >
         <div
-          className={`w-30 h-[78px] rounded-full transition-all duration-700 ${
+          className={`md:w-[78.7px] md:h-[51px] w-[133px] h-[87px] rounded-[1111px] transition-all duration-700 ${
             active
-              ? "translate-x-[72px] bg-[#ff4d4d]"
+              ? "translate-x-[110px] md:translate-x-[60px] bg-[#ff4d4d]"
               : "translate-x-0 bg-[#2b2b2b]"
           }`}
+          style={{
+            boxShadow: "4.44px 4.44px 6.67px rgba(0, 0, 0, 0.5)", // ichki tugma soyasi
+          }}
         />
       </button>
+
       <TriangleGroup side="left" active={active} />
       <TriangleGroup side="right" active={active} />
     </section>
@@ -91,7 +114,7 @@ function TriangleGroup({
   // ✅ Eng katta pastda chiqishi uchun DOM z-index bilan o‘ynaymiz
   return (
     <div
-      className={`absolute bottom-0 ${align} flex flex-col justify-end gap-1 scale-[0.8] sm:scale-100 md:scale-110 lg:scale-125`}
+      className={`absolute bottom-0 ${align} lg:flex  hidden flex-col justify-end gap-1 scale-[0.8] sm:scale-100 md:scale-110 lg:scale-125`}
     >
       {baseColors.map((color, i) => (
         <Triangle

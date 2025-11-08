@@ -1,4 +1,12 @@
 @import "tailwindcss";
+@theme {
+  --breakpoint-sm: 577px;
+  --breakpoint-xs: 480px;
+  --breakpoint-lx: 992px;
+  --breakpoint-xxl: 1440px;
+  --breakpoint-3xl: 1600px;
+  --breakpoint-xl: 1260px;
+}
 @font-face {
   font-family: "TT Norms Pro";
   src: url("/fonts/TTNormsProMono-Light.ttf") format("truetype");
