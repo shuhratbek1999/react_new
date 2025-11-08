@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#1E1E1E] font-tt text-[#FBFFFE] fixed top-0 left-0 w-full z-50 flex items-end sm:items-center max-sm:pb-4 sm:pb-0 transition-all duration-300 3xl:h-[100px] xxl:h-[90px] xl:h-[78.75px] lg:h-16 lx:h-[62px] md:h-12 sm:h-[130px] xs:h-[108px] h-[83.5px]">
+    <header className="bg-[#1E1E1E] font-tt text-[#FBFFFE] fixed top-0 left-0 w-full z-50 flex items-end sm:items-center max-sm:pb-4 sm:pb-0 transition-all duration-300 xxxl:h-[100px] xxl:h-[90px] xl:h-[78.75px] lg:h-16 lx:h-[62px] md:h-12 sm:h-[130px] xs:h-[108px] h-[83.5px]">
       <div className="w-full mx-auto px-6 sm:px-10 flex justify-between items-center">
         {/* --- Logo --- */}
         <div className="flex items-center space-x-2">
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
         {/* --- Desktop Navigation --- */}
         <nav className="hidden md:flex items-center space-x-3">
           <section
-            className="3xl:w-[723px] 3xl:h-[55px] xxl:w-[651px] xxl:h-[50px] xxl:text-[14px] xl:w-[570px] xl:h-[43.75px] xl:text-[12.25px] lg:w-[463px] lg:h-[35.6px] lg:text-[9.96px] lx:w-[448.6px] lx:h-[34.5px] lx:text-[9.65px] md:w-[348px] md:h-[27px] md:text-[7.47px] rounded-[30px] flex items-center justify-around font-tt"
+            className="xxxl:w-[723px] xxxl:h-[55px] xxl:w-[651px] xxl:h-[50px] xxl:text-[14px] xl:w-[570px] xl:h-[43.75px] xl:text-[12.25px] lg:w-[463px] lg:h-[35.6px] lg:text-[9.96px] lx:w-[448.6px] lx:h-[34.5px] lx:text-[9.65px] md:w-[348px] md:h-[27px] md:text-[7.47px] rounded-[30px] flex items-center justify-around font-tt"
             style={{ backgroundColor: "rgba(40, 40, 40, 1)" }}
           >
             <a
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
               Контакты
             </a>
           </section>
-          <button className="3xl:w-[212.5px] 3xl:h-[55.4px] xxl:w-48 xxl:h-[50px] xl:w-[168px] xl:h-11 xl:text-[12.25px] lg:w-[137px] lg:h-[35.5px] lg:text-[9.96px] lx:w-[132.5px] lx:h-[34.5px] lx:text-[9.65px] md:w-[103px] md:h-[26px] md:text-[7.47px] flex items-center justify-center font-tt bg-[#FBFFFE] text-[#1E1E1E] rounded-[33.33px] font-bold uppercase">
+          <button className="xxxl:w-[212.5px] xxxl:h-[55.4px] xxl:w-48 xxl:h-[50px] xl:w-[168px] xl:h-11 xl:text-[12.25px] lg:w-[137px] lg:h-[35.5px] lg:text-[9.96px] lx:w-[132.5px] lx:h-[34.5px] lx:text-[9.65px] md:w-[103px] md:h-[26px] md:text-[7.47px] flex items-center justify-center font-tt bg-[#FBFFFE] text-[#1E1E1E] rounded-[33.33px] font-bold uppercase">
             Стать партнёром
           </button>
         </nav>
