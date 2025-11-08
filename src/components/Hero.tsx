@@ -42,8 +42,9 @@ export default function Hero() {
         </p>
       </div>
       <button
-        onClick={() => setActive(!active)}
-        className={`relative z-10 mt-20 w-[237px] h-[94px] rounded-[100px] transition-all duration-700 flex items-center justify-start px-2 shadow-md ${
+        onMouseEnter={() => setActive(true)}
+        onMouseLeave={() => setActive(false)}
+        className={`relative cursor-pointer z-10 mt-20 w-[237px] h-[94px] rounded-[100px] transition-all duration-700 flex items-center justify-start px-2 shadow-md ${
           active ? "bg-[#e60000]" : "bg-[#1b1b1b]"
         }`}
       >
